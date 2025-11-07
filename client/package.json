@@ -4,9 +4,9 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "dev": "vite --host",
-    "build": "vite build",
-    "preview": "vite preview --host",
+    "dev": "vite --host --config ../vite.config.ts",
+    "build": "vite build --config ../vite.config.ts",
+    "preview": "vite preview --host --config ../vite.config.ts",
     "check": "tsc --noEmit",
     "format": "prettier --write ."
   },
