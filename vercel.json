@@ -1,6 +1,7 @@
 {
-  "buildCommand": "npm install --include=dev && npm run build",
+  "buildCommand": "cd client && npm install --include=dev && npm run build",
   "outputDirectory": "client/dist",
   "framework": "vite"
 }
+
 
