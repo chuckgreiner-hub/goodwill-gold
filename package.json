@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build --config ./vite.config.ts",
-    "preview": "vite preview --host",
+    "deploy": "git add -A && git commit --no-gpg-sign -m \"redeploy\" && git push origin main && vercel --prod --force",    
+     "preview": "vite preview --host",
     "check": "tsc --noEmit",
     "format": "prettier --write ."
 },
